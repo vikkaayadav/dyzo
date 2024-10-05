@@ -91,7 +91,7 @@ header{
     align-items: center;
     gap: 20px;
 }
-/* ctaBox .headerCta */
+
 .CtaStyle{ 
     background: #0f6fff;
     padding: 10px 20px;
@@ -302,56 +302,6 @@ header{
 }
 
 
-footer{
-    width: 100%;
-    padding: 50px 0;
-    background: #111112;
-    text-align: center;
-}
-footer .footerLinksBox{
-    display: flex;
-    color: #fff;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 30px;
-    border-top: 1px solid #373F4D;
-    padding-top: 30px;
-}
-footer .footerLinksBox hr{
-    width: 1px;
-    height: 20px;
-    background: #fff;
-    border: 0;
-}
-footer .footerLinksBox .footerCopyrightBox{
-    font-size: 14px;
-    color: #d2d6dc;
-}
-
-footer .footerLinksBox a{
-    display: inline-block;
-    color: #fff;
-    text-decoration: none;
-}
-
-footer .footerLinksBox .fa{
-    font-size: 20px;
-    margin-left: 10px;
-}
-footer .footerLinksBox a:hover{
-    text-decoration: underline;
-}
-footer .footerLinksBox .footerLinks{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-
-
 /*  */
 
 .ClientTestimonialMain-wrapper{
@@ -445,6 +395,56 @@ footer .footerLinksBox .footerLinks{
 }
 
 
+footer{
+    width: 100%;
+    padding: 50px 0;
+    background: #111112;
+    text-align: center;
+}
+footer .footerLinksBox{
+    display: flex;
+    color: #fff;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    border-top: 1px solid #373F4D;
+    padding-top: 30px;
+}
+footer .footerLinksBox hr{
+    width: 1px;
+    height: 20px;
+    background: #fff;
+    border: 0;
+}
+footer .footerLinksBox .footerCopyrightBox{
+    font-size: 14px;
+    color: #d2d6dc;
+}
+
+footer .footerLinksBox a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .footerLinksBox .fa{
+    font-size: 20px;
+    margin-left: 10px;
+}
+footer .footerLinksBox a:hover{
+    text-decoration: underline;
+}
+footer .footerLinksBox .footerLinks{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+
 @media only screen and (max-width: 1380px){
     .headerBoxMain{
         grid-template-columns: 1fr 2fr 1.5fr;
@@ -498,9 +498,6 @@ footer .footerLinksBox .footerLinks{
     .HeroMain-wrapper h1{
         font-size: 45px;
     }
-    /* .featuresMain-wrapper .container{
-        grid-template-columns: 1fr;
-    } */
 
     .featuresMain-wrapper h3{
         font-size: 26px;
