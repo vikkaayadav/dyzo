@@ -629,6 +629,9 @@ footer .footerLinksBox .footerLinks{
         font-size: 30px;
         line-height: 1.4em;
     }
+    .InsightMainBox-wrapper h2 br{
+        display: none;
+    }
     .TrustBadgeMain-wrapper h2{
         line-height: 1.4em;
     }
